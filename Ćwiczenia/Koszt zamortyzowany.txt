@@ -1,7 +1,0 @@
-Przyjmujemy tezę, że koszt dodania jednego elementu do listy wynosi 1 wtedy złożoność tej operacji wyniesie O(1), w tym celu stostujemy nadwyżkę biorąc 3
-Przy pustej liście dodając do niej element wykonujemy operację o koszcie 1, gdy dodamy do listy n takich elementów otrzymamy nadwyżkę w wysokości 2n monet.
-Nasza lista o wielkości n jest teraz pełna więc poszerzamy ją dwukrotnie aby dodać kolejne elementy.
-Kopiując wszystko z poprzedniej listy zużywamy n monet (na n elementów), więc nasza nadwyzka wynosi teraz n
-Dodając do nowej listy każdy nowy element ilość naszych monet zwiększa się o 2 (3-1), gdy zapełnimy całą listę o długości 2n otrzymamy dodatkowe 2n monet co w sumie daje 3n.
-Poszerzając ponownie tablicę zużyjemy 2n monet, otrzymamy wtedy tablicę o długości 4n do połowy pustą oraz będziemy mieli nadwyżkę w wysokości n.
-W ten sposób możemy poszerzać tablicę dowolną ilość razy zwiększając jej długość dwukrotnie
